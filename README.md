@@ -6,7 +6,7 @@
 
 The list of words may be also helpful for learners (see: sec. "Furhter ideas" in how it can be even more helfpul). This is a hobby problem, made solely for fun, so please see the disclaimer below.
 
-![plot](https://raw.githubusercontent.com/kowalczewski/MilleParole/master/plot.png)
+![plot](https://raw.githubusercontent.com/kowalczewski/MilleParole/master/plot_annotated.png)
 
 Some numbers:
 - English: **688** words are used 40% of time, **1089392** words in total.
