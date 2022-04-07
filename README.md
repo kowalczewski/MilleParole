@@ -35,7 +35,7 @@ This is how it works:
 
 ## Further ideas
 
-1. Add example phrases for the top 1000 words, which may be helpful for learners. We will get a nice phrasebook to learn the language. Make a simple website with the list of top 1000 words and corresponding phrases. The users will be able to suggest their features.
+1. Add example phrases for the top 1000 words, which may be helpful for learners. We will get a nice phrasebook to learn the language. Make a simple website with the list of top 1000 words and corresponding phrases. The users will be able to suggest their own phrases.
 2. Compare data from intervals, say 1900-1924, 1925-1949, 1950-1974, 1975-1999 to see if the dynamics changes.
 3. Focus on the names (e.g., geographical), instead of removing them. E.g., see how much more often Roma is mentioned compared to Torino (in Italian).
 
