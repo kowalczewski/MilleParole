@@ -21,7 +21,7 @@ Or, to put it differently:
 ## How it works
 
 This is how it works:
-1. `group_words.py` takes the raw ngrams files (each file corresponds to a single letter of alphabet) and groups by words. Therefore, it shows how many times a given word occured in general (the original ngrams files give occurences of a given word in a given year). Then the script produces CSV files (a.csv, b.csv, c.csv, ...) for further analysis. This is the most time-consuming step and therefore we keep it seperate from step 2 (i.e., different scripts are used in step 1 and 2). It is also worth keeping csv files corresponding to letters for any further analysis.
+1. `group_words.py` takes the raw ngrams files (each file corresponds to a single letter of the alphabet) and groups them by words. Therefore, it shows how many times a given word occured in general (the original ngrams files give occurences of a given word in a given year). Then the script produces CSV files (a.csv, b.csv, c.csv, ...) for further analysis. This is the most time-consuming step and therefore we keep it seperate from step 2 (i.e., different scripts are used in step 1 and 2). It is also worth keeping csv files corresponding to letters for any further analysis.
 2. `merge_words.py` takes the a.csv, b.csv, c.csv... files, puts them into PD dataframe, removes words with the occurrence below a certain threshold, and returns a CSV file with the list of words
 3. `language_analysis.ipynb` is a Jupyter Notebook for analysis. It does some data cleaning and returns the plot of occurrences (%) as a function of number of words (log scale).
 
