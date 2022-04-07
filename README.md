@@ -9,9 +9,14 @@ The list of words may be also helpful for learners (see: sec. "Furhter ideas" in
 ![plot](https://raw.githubusercontent.com/kowalczewski/MilleParole/master/plot_annotated.png)
 
 Some numbers:
-- English: **688** words are used 40% of time, **1089392** words in total.
-- French: **691** words are used 40% of time, **348189** words in total.
-- Italian: **960** words are used 40% of time, **338283** words in total.
+- English: 425 words are used 40% of the time, 420513 words in total.
+- French: 505 words are used 40% of the time, 186158 words in total.
+- Italian: 668 words are used 40% of the time, 215171 words in total.
+
+Or, to put it differently:
+- Italian: 1000 words are used 45.7 of the time.
+- English: 1000 words are used 53.5 of the time.
+- French: 1000 words are used 50.0 of the time.
 
 ## How it works
 
@@ -25,7 +30,8 @@ This is how it works:
 1. Words that occured starting from year 1950, to get a relatively modern language.
 2. Only words that appeared more than 1000 times are taken into consideration.
 3. I don't distinguish between different parts of speech (different parts of speech are merged into a single word).
-4. The datasets are based on books, so of course it may differ from the spoken language. 
+4. The datasets are based on books, so of course it may differ from the spoken language.
+5. I remove names, i.e., words starting with capital letter. This changes the results quite significantly.
 
 ## Further ideas
 
