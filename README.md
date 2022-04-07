@@ -14,9 +14,9 @@ Some numbers:
 - Italian: 668 words are used 40% of the time, 215171 words in total.
 
 Or, to put it differently:
-- Italian: 1000 words are used 45.7 of the time.
-- English: 1000 words are used 53.5 of the time.
-- French: 1000 words are used 50.0 of the time.
+- Italian: 1000 words are used 45.7% of the time.
+- English: 1000 words are used 53.5% of the time.
+- French: 1000 words are used 50.0% of the time.
 
 ## How it works
 
