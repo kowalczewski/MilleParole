@@ -13,8 +13,8 @@ def main():
     n_min = 1000
     # year from (here only for filename)
     year_min = 1950
-    # language: eng, ita, or fre
-    language = 'fre'
+    # language: eng, ita, fre, ger
+    language = 'ger'
     # ======================================================
 
     alphabet_string = string.ascii_lowercase
