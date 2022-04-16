@@ -19,8 +19,10 @@ def main():
 
     # ===================== PARAMETERS =====================
     # language: eng, ita, or fre
-    language = 'ita'
+    language = 'ger'
     year_min = 1950
+    # path to the folder with ngrams
+    path_ngrams = '/Users/piotr/Downloads/ger'
     # ======================================================
 
     alphabet_string = string.ascii_lowercase
@@ -28,7 +30,7 @@ def main():
 
     for letter in alphabet_list:
         print(letter)
-        fname = f'/home/piotr/Documents/Python/ngrams/{language}/googlebooks-{language}-all-1gram-20120701-{letter}'
+        fname = f'{path_ngrams}/googlebooks-{language}-all-1gram-20120701-{letter}'
         group_file(fname, letter, year_min, language)
 
 def group_file(filename, letter, from_year, language):
